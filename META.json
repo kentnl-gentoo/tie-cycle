@@ -1,10 +1,10 @@
 {
-   "abstract" : "Cycle through a list of values via a scalar",
+   "abstract" : "Cycle through a list of values via a scalar.",
    "author" : [
       "brian d foy <bdfoy@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.86, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "ExtUtils::MakeMaker version 7.04, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
@@ -21,18 +21,18 @@
    },
    "prereqs" : {
       "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
+         "requires" : {}
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.64"
+            "ExtUtils::MakeMaker" : "6.64",
+            "File::Spec::Functions" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "Carp" : "0"
+            "Carp" : "0",
+            "perl" : "5.008"
          }
       },
       "test" : {
@@ -43,10 +43,15 @@
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/briandfoy/tie-cycle/issues"
+      },
+      "homepage" : "https://github.com/briandfoy/tie-cycle",
       "repository" : {
          "type" : "git",
+         "url" : "https://github.com/briandfoy/tie-cycle.git",
          "web" : "https://github.com/briandfoy/tie-cycle"
       }
    },
-   "version" : "1.21"
+   "version" : "1.221"
 }

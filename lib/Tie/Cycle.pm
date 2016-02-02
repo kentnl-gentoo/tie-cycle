@@ -1,7 +1,7 @@
 package Tie::Cycle;
 use strict;
 
-our $VERSION = '1.21';
+our $VERSION = '1.221';
 
 use Carp qw(carp);
 
@@ -65,7 +65,7 @@ sub _count   { $_[0]->[COUNT_COL] }
 sub _item    {
 	my( $self, $index ) = @_;
 	$index = defined $index ? $index : $self->_cursor;
-	$self->[ITEM_COL][ $index ] 
+	$self->[ITEM_COL][ $index ]
 	}
 
 "Tie::Cycle";
@@ -80,7 +80,7 @@ Tie::Cycle - Cycle through a list of values via a scalar.
 
 =head1 SYNOPSIS
 
-	use v5.10.1;
+	use v5.10;
 	use Tie::Cycle;
 
 	tie my $cycle, 'Tie::Cycle', [ qw( FFFFFF 000000 FFFF00 ) ];
@@ -147,8 +147,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2000-2013, brian d foy, All rights reserved
-
+Copyright © 2000-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
 This software is available under the same terms as perl.
 
 =cut
