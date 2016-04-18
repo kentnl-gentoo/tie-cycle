@@ -1,5 +1,3 @@
 load.t
-pod.t
-pod_coverage.t
 cycle.t
 one.t
