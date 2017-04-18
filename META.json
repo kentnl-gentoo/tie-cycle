@@ -6,7 +6,7 @@
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 7.1001, CPAN::Meta::Converter version 2.150005",
    "license" : [
-      "perl_5"
+      "artistic_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -53,6 +53,6 @@
          "web" : "https://github.com/briandfoy/tie-cycle"
       }
    },
-   "version" : "1.222",
+   "version" : "1.224",
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
